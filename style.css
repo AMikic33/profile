@@ -6,6 +6,7 @@ body {
   font-size: 18px;
   color: #22223b;
   line-height: normal;
+  height: 100vh;
   background: linear-gradient(to bottom, #9a8c98 0%, #22223b 100%);
 }
 
@@ -26,25 +27,29 @@ h2 {
   border-radius: 50%;
 }
 
-.button {
-  background-color: #9a8c98;
-  border: none;
-  color: #f2e9e4;
-  border-radius: 15px;
-  box-shadow: 0px 0px 2px 2px #9a8c98;
+.projects {
+  color: #9a8c98;
 }
 
-.button:hover {
-  background-color:#4a4e69;
+.projects:hover {
+  color:#4a4e69;
   transition: 0.7s;
 }
 
 
-.card {
+.main-card {
+  text-align: center;
+  background: #f2e9e4;
+  margin-top: 30%;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.follow-card {
   text-align: center;
   background: #f2e9e4;
   padding: 30px;
-  margin: 50px;
+  margin-top: 10px;
   border: 1px solid lightgrey;
 }
 

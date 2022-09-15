@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #22223b;
+  line-height: normal;
+  background: linear-gradient(to bottom, #9a8c98 0%, #22223b 100%);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1{
+  color: #4a4e69 ;
+}
+
+h2 {
+  font-weight: 250;
+}
+
+#pic {
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #9a8c98;
+  border: none;
+  color: #f2e9e4;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px #9a8c98;
+}
+
+.button:hover {
+  background-color:#4a4e69;
+  transition: 0.7s;
+}
+
+
+.card {
+  text-align: center;
+  background: #f2e9e4;
+  padding: 30px;
+  margin: 50px;
+  border: 1px solid lightgrey;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #c9ada7;
+  display:inline-block;
+}
+
+a:hover {
+  color: #9a8c98;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
